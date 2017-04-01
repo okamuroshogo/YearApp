@@ -47,7 +47,7 @@ final class ViewController: UIViewController {
         UIApplication.shared.setAlternateIconName(iconName, completionHandler: { error in
             let alert = UIAlertController(
                 title: "アイコンを設定しました",
-                message: "ホームボタンで修了すると確認できます",
+                message: "ホームボタンで戻ると確認できます",
                 preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default))
             
