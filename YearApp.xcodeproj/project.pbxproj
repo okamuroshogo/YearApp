@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A1F0C9E1E8FC31F00CF3FD5 /* Seireki@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */; };
-		2A1F0C9F1E8FC31F00CF3FD5 /* Heisei@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */; };
-		2A1F0CA01E8FC31F00CF3FD5 /* Heisei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */; };
-		2A1F0CA11E8FC31F00CF3FD5 /* Seireki@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */; };
+		2A91CE7B1E90151C0019038D /* Heisei.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE751E90151C0019038D /* Heisei.png */; };
+		2A91CE7C1E90151C0019038D /* Heisei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE761E90151C0019038D /* Heisei@2x.png */; };
+		2A91CE7D1E90151C0019038D /* Heisei@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE771E90151C0019038D /* Heisei@3x.png */; };
+		2A91CE7E1E90151C0019038D /* Seireki.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE781E90151C0019038D /* Seireki.png */; };
+		2A91CE7F1E90151C0019038D /* Seireki@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE791E90151C0019038D /* Seireki@2x.png */; };
+		2A91CE801E90151C0019038D /* Seireki@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE7A1E90151C0019038D /* Seireki@3x.png */; };
+		2A91CE871E901AA90019038D /* HeiseiTap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE811E901AA90019038D /* HeiseiTap.png */; };
+		2A91CE881E901AA90019038D /* HeiseiTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE821E901AA90019038D /* HeiseiTap@2x.png */; };
+		2A91CE891E901AA90019038D /* HeiseiTap@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE831E901AA90019038D /* HeiseiTap@3x.png */; };
+		2A91CE8A1E901AA90019038D /* SeirekiTap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE841E901AA90019038D /* SeirekiTap.png */; };
+		2A91CE8B1E901AA90019038D /* SeirekiTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE851E901AA90019038D /* SeirekiTap@2x.png */; };
+		2A91CE8C1E901AA90019038D /* SeirekiTap@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A91CE861E901AA90019038D /* SeirekiTap@3x.png */; };
 		2ADE03131E8F8A1000F77925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE03121E8F8A1000F77925 /* AppDelegate.swift */; };
 		2ADE03151E8F8A1000F77925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE03141E8F8A1000F77925 /* ViewController.swift */; };
 		2ADE03181E8F8A1000F77925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE03161E8F8A1000F77925 /* Main.storyboard */; };
@@ -38,10 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@1x.png"; sourceTree = "<group>"; };
-		2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@1x.png"; sourceTree = "<group>"; };
-		2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@2x.png"; sourceTree = "<group>"; };
-		2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@2x.png"; sourceTree = "<group>"; };
+		2A91CE751E90151C0019038D /* Heisei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heisei.png; sourceTree = "<group>"; };
+		2A91CE761E90151C0019038D /* Heisei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@2x.png"; sourceTree = "<group>"; };
+		2A91CE771E90151C0019038D /* Heisei@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@3x.png"; sourceTree = "<group>"; };
+		2A91CE781E90151C0019038D /* Seireki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seireki.png; sourceTree = "<group>"; };
+		2A91CE791E90151C0019038D /* Seireki@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@2x.png"; sourceTree = "<group>"; };
+		2A91CE7A1E90151C0019038D /* Seireki@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@3x.png"; sourceTree = "<group>"; };
+		2A91CE811E901AA90019038D /* HeiseiTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeiseiTap.png; sourceTree = "<group>"; };
+		2A91CE821E901AA90019038D /* HeiseiTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeiseiTap@2x.png"; sourceTree = "<group>"; };
+		2A91CE831E901AA90019038D /* HeiseiTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeiseiTap@3x.png"; sourceTree = "<group>"; };
+		2A91CE841E901AA90019038D /* SeirekiTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeirekiTap.png; sourceTree = "<group>"; };
+		2A91CE851E901AA90019038D /* SeirekiTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeirekiTap@2x.png"; sourceTree = "<group>"; };
+		2A91CE861E901AA90019038D /* SeirekiTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeirekiTap@3x.png"; sourceTree = "<group>"; };
 		2ADE030F1E8F8A1000F77925 /* YearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADE03121E8F8A1000F77925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADE03141E8F8A1000F77925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,11 +125,19 @@
 				2ADE03141E8F8A1000F77925 /* ViewController.swift */,
 				2ADE03161E8F8A1000F77925 /* Main.storyboard */,
 				2ADE03191E8F8A1000F77925 /* Assets.xcassets */,
-				2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */,
-				2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */,
-				2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */,
-				2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */,
 				2ADE031B1E8F8A1000F77925 /* LaunchScreen.storyboard */,
+				2A91CE751E90151C0019038D /* Heisei.png */,
+				2A91CE761E90151C0019038D /* Heisei@2x.png */,
+				2A91CE771E90151C0019038D /* Heisei@3x.png */,
+				2A91CE781E90151C0019038D /* Seireki.png */,
+				2A91CE791E90151C0019038D /* Seireki@2x.png */,
+				2A91CE7A1E90151C0019038D /* Seireki@3x.png */,
+				2A91CE811E901AA90019038D /* HeiseiTap.png */,
+				2A91CE821E901AA90019038D /* HeiseiTap@2x.png */,
+				2A91CE831E901AA90019038D /* HeiseiTap@3x.png */,
+				2A91CE841E901AA90019038D /* SeirekiTap.png */,
+				2A91CE851E901AA90019038D /* SeirekiTap@2x.png */,
+				2A91CE861E901AA90019038D /* SeirekiTap@3x.png */,
 				2ADE031E1E8F8A1000F77925 /* Info.plist */,
 			);
 			path = YearApp;
@@ -247,13 +271,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1F0C9F1E8FC31F00CF3FD5 /* Heisei@1x.png in Resources */,
-				2A1F0C9E1E8FC31F00CF3FD5 /* Seireki@1x.png in Resources */,
+				2A91CE7E1E90151C0019038D /* Seireki.png in Resources */,
+				2A91CE8A1E901AA90019038D /* SeirekiTap.png in Resources */,
+				2A91CE7B1E90151C0019038D /* Heisei.png in Resources */,
+				2A91CE871E901AA90019038D /* HeiseiTap.png in Resources */,
+				2A91CE8C1E901AA90019038D /* SeirekiTap@3x.png in Resources */,
+				2A91CE7C1E90151C0019038D /* Heisei@2x.png in Resources */,
+				2A91CE7D1E90151C0019038D /* Heisei@3x.png in Resources */,
 				2ADE031D1E8F8A1000F77925 /* LaunchScreen.storyboard in Resources */,
-				2A1F0CA11E8FC31F00CF3FD5 /* Seireki@2x.png in Resources */,
 				2ADE031A1E8F8A1000F77925 /* Assets.xcassets in Resources */,
-				2A1F0CA01E8FC31F00CF3FD5 /* Heisei@2x.png in Resources */,
 				2ADE03181E8F8A1000F77925 /* Main.storyboard in Resources */,
+				2A91CE7F1E90151C0019038D /* Seireki@2x.png in Resources */,
+				2A91CE801E90151C0019038D /* Seireki@3x.png in Resources */,
+				2A91CE8B1E901AA90019038D /* SeirekiTap@2x.png in Resources */,
+				2A91CE891E901AA90019038D /* HeiseiTap@3x.png in Resources */,
+				2A91CE881E901AA90019038D /* HeiseiTap@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

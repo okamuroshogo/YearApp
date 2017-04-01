@@ -36,8 +36,10 @@ final class ViewController: UIViewController {
     }
 
     private func switchIcon() {
-        self.heisei.layer.borderColor = self.isHeisei ? UIColor.black.cgColor : UIColor.clear.cgColor
-        self.seireki.layer.borderColor = self.isHeisei ? UIColor.clear.cgColor : UIColor.black.cgColor
+        let heisei = self.isHeisei ? UIImage(named: "HeiseiTap") : UIImage(named: "Heisei")
+        let seireki = self.isHeisei ? UIImage(named: "Seireki") : UIImage(named: "SeirekiTap")
+        self.heisei.setImage(heisei, for: .normal)
+        self.seireki.setImage(seireki, for: .normal)
     }
     
     @IBAction func setIcon(_ sender: Any) {
@@ -54,38 +56,4 @@ final class ViewController: UIViewController {
     }
 }
 
-extension UIView {
-    
-    @IBInspectable
-    var cornerRadius: CGFloat {
-        get {
-            return self.layer.cornerRadius
-        }
-        set {
-            self.layer.cornerRadius = newValue
-            self.layer.masksToBounds = true
-        }
-    }
-    
-    @IBInspectable
-    var borderWidth: CGFloat {
-        get {
-            return self.layer.borderWidth
-        }
-        set {
-            self.layer.borderWidth = newValue
-        }
-    }
-    
-    @IBInspectable
-    var borderColor: UIColor? {
-        get {
-            return UIColor(cgColor: self.layer.borderColor!)
-        }
-        set {
-            self.layer.borderColor = newValue?.cgColor
-        }
-    }
-    
-}
 
