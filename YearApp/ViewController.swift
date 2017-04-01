@@ -17,10 +17,19 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.switchIcon()
-
+        if UIApplication.shared.supportsAlternateIcons { return }
+        let alert = UIAlertController(
+            title: "この端末には対応していません",
+            message: "iOS 10.3以降にあげていただくと切り替えることができます",
+            preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        
+        self.present(alert, animated: true, completion: nil)
+        
+        
     }
-
-
+    
+    
     @IBAction func onClick(_ sender: UIButton) {
         self.isHeisei = sender == self.heisei ? true : false
         self.switchIcon()
