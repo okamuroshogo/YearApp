@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1F0C9E1E8FC31F00CF3FD5 /* Seireki@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */; };
+		2A1F0C9F1E8FC31F00CF3FD5 /* Heisei@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */; };
+		2A1F0CA01E8FC31F00CF3FD5 /* Heisei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */; };
+		2A1F0CA11E8FC31F00CF3FD5 /* Seireki@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */; };
 		2ADE03131E8F8A1000F77925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE03121E8F8A1000F77925 /* AppDelegate.swift */; };
 		2ADE03151E8F8A1000F77925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE03141E8F8A1000F77925 /* ViewController.swift */; };
 		2ADE03181E8F8A1000F77925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE03161E8F8A1000F77925 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@1x.png"; sourceTree = "<group>"; };
+		2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@1x.png"; sourceTree = "<group>"; };
+		2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heisei@2x.png"; sourceTree = "<group>"; };
+		2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seireki@2x.png"; sourceTree = "<group>"; };
 		2ADE030F1E8F8A1000F77925 /* YearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADE03121E8F8A1000F77925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADE03141E8F8A1000F77925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 				2ADE03141E8F8A1000F77925 /* ViewController.swift */,
 				2ADE03161E8F8A1000F77925 /* Main.storyboard */,
 				2ADE03191E8F8A1000F77925 /* Assets.xcassets */,
+				2A1F0C9A1E8FC31F00CF3FD5 /* Seireki@1x.png */,
+				2A1F0C9B1E8FC31F00CF3FD5 /* Heisei@1x.png */,
+				2A1F0C9C1E8FC31F00CF3FD5 /* Heisei@2x.png */,
+				2A1F0C9D1E8FC31F00CF3FD5 /* Seireki@2x.png */,
 				2ADE031B1E8F8A1000F77925 /* LaunchScreen.storyboard */,
 				2ADE031E1E8F8A1000F77925 /* Info.plist */,
 			);
@@ -235,8 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1F0C9F1E8FC31F00CF3FD5 /* Heisei@1x.png in Resources */,
+				2A1F0C9E1E8FC31F00CF3FD5 /* Seireki@1x.png in Resources */,
 				2ADE031D1E8F8A1000F77925 /* LaunchScreen.storyboard in Resources */,
+				2A1F0CA11E8FC31F00CF3FD5 /* Seireki@2x.png in Resources */,
 				2ADE031A1E8F8A1000F77925 /* Assets.xcassets in Resources */,
+				2A1F0CA01E8FC31F00CF3FD5 /* Heisei@2x.png in Resources */,
 				2ADE03181E8F8A1000F77925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,9 +432,10 @@
 		2ADE03381E8F8A1000F77925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "icon-heisei";
 				DEVELOPMENT_TEAM = 2E5E462W28;
 				INFOPLIST_FILE = YearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ro.okamu.YearApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,9 +446,10 @@
 		2ADE03391E8F8A1000F77925 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "icon-heisei";
 				DEVELOPMENT_TEAM = 2E5E462W28;
 				INFOPLIST_FILE = YearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ro.okamu.YearApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +534,7 @@
 				2ADE03391E8F8A1000F77925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADE033A1E8F8A1000F77925 /* Build configuration list for PBXNativeTarget "YearAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				2ADE033C1E8F8A1000F77925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADE033D1E8F8A1000F77925 /* Build configuration list for PBXNativeTarget "YearAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				2ADE033F1E8F8A1000F77925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YearApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,98 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今年は" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dk3-gv-eiC">
+                                <rect key="frame" x="161" y="80" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gd-P9-iyo">
+                                <rect key="frame" x="16" y="151" width="163.5" height="163.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5gd-P9-iyo" secondAttribute="height" multiplier="1:1" id="aCe-gt-c5d"/>
+                                </constraints>
+                                <state key="normal" image="heisei29"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="34"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TcR-3Z-0dv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rda-qt-7ch">
+                                <rect key="frame" x="195.5" y="151" width="163.5" height="163.5"/>
+                                <state key="normal" image="seireki2017"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="34"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0K-Pc-Npl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年です" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vz9-oS-7d2">
+                                <rect key="frame" x="161" y="351.5" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GOF-OS-vzu"/>
+                                    <constraint firstAttribute="width" constant="52" id="r7w-FC-e3Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBi-Rh-hqT">
+                                <rect key="frame" x="73" y="518" width="230" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jBi-Rh-hqT" secondAttribute="height" multiplier="286:62" id="Dh3-0C-QnD"/>
+                                    <constraint firstAttribute="height" constant="50" id="oC8-fO-7r2"/>
+                                </constraints>
+                                <state key="normal" image="setIcon"/>
+                                <connections>
+                                    <action selector="setIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gvz-Mg-gEN"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jBi-Rh-hqT" secondAttribute="bottom" constant="99" id="A1p-fW-Cxx"/>
+                            <constraint firstItem="dk3-gv-eiC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="BJ6-iv-tTI"/>
+                            <constraint firstItem="rda-qt-7ch" firstAttribute="leading" secondItem="5gd-P9-iyo" secondAttribute="trailing" constant="16" id="Fp7-PW-0En"/>
+                            <constraint firstItem="Vz9-oS-7d2" firstAttribute="top" secondItem="rda-qt-7ch" secondAttribute="bottom" constant="37" id="IdS-cg-pQx"/>
+                            <constraint firstItem="rda-qt-7ch" firstAttribute="height" secondItem="5gd-P9-iyo" secondAttribute="height" id="NT3-lc-Nwx"/>
+                            <constraint firstItem="rda-qt-7ch" firstAttribute="top" secondItem="dk3-gv-eiC" secondAttribute="bottom" constant="50" id="ZBJ-1s-cyv"/>
+                            <constraint firstItem="rda-qt-7ch" firstAttribute="width" secondItem="5gd-P9-iyo" secondAttribute="width" id="aYe-93-PoE"/>
+                            <constraint firstItem="Vz9-oS-7d2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bay-jP-qbF"/>
+                            <constraint firstItem="5gd-P9-iyo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="dfv-QZ-2d5"/>
+                            <constraint firstItem="dk3-gv-eiC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="err-6Z-q1G"/>
+                            <constraint firstItem="jBi-Rh-hqT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g7T-JK-Cy3"/>
+                            <constraint firstItem="5gd-P9-iyo" firstAttribute="top" secondItem="dk3-gv-eiC" secondAttribute="bottom" constant="50" id="nrS-k7-tza"/>
+                            <constraint firstAttribute="trailing" secondItem="rda-qt-7ch" secondAttribute="trailing" constant="16" id="wM3-Ho-ikz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heisei" destination="5gd-P9-iyo" id="Pyc-MW-Ccc"/>
+                        <outlet property="seireki" destination="rda-qt-7ch" id="2p4-Te-Tm8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="heisei29" width="200" height="200"/>
+        <image name="seireki2017" width="200" height="200"/>
+        <image name="setIcon" width="286" height="62"/>
+    </resources>
 </document>
